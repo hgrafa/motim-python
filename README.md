@@ -1,7 +1,7 @@
-# **Formação React - Motim Educação** 🚀⚛️
+# **Formação Python - Motim Educação** 🚀⚛️
 
-- Treinamento Frontend na [**Motim Educação**](https://motim.me/)
-- Objetivos: **`Javascript`**, **`Typescript`**, **`React`** e **`Nextjs`**
+- Treinamento Python na [**Motim Educação**](https://motim.me/)
+- Objetivos: **`Python`** e **`Logica de programação`**
 - Professor e Orientador: [Hugo Rafael](https://github.com/hgrafa)
 - Turma: MT24PY
 
