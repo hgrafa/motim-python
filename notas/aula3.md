@@ -59,6 +59,14 @@ notas[0] = 9.0
 print(notas[0])
 ```
 
+## desestruturação
+
+```py
+nomes = ['Alice', 'Pedro']
+
+primeiro, segundo = nomes
+```
+
 # Strings
 
 > lista de caracteres
@@ -70,4 +78,73 @@ palavra = 'teste'
 
 print(palavra[0]) # t
 print(palavra[2]) # s
+```
+
+# Estrutura de repetição / loop
+
+- inicializacao
+- verificacao
+- atualizacao
+
+## Estrutura `while` (Enquanto)
+
+> `if` que dura mais de uma vez
+
+```py
+count = 0 # inicializacao
+
+while count < 5: # verificacao
+  print('oi')
+  count += 1 # atualizacao
+
+print('fim do programa')
+```
+
+- objetivo: contar de 1 a 10
+
+```py
+count = 1 # inicializacao
+
+while count <= 10: # verificacao
+  print(count)
+  count += 1 # atualizacao
+
+print('fim do programa')
+```
+
+## Estrutura for (`para`)
+
+- range(stop) -> vou de zero (inclusive) ate o stop(exclusive) de um em um
+- ex: `range(5)` : `0, 1, 2, 3, 4`
+
+- range(start, stop) -> vou do start(inclusive) ate o stop(exclusive) de um em um
+- `range(2, 7)`: `2, 3, 4, 5, 6`
+
+- range(start, stop, step) -> vou do start(inclusive) ate o stop(exclusive) de step em step
+- `range(2, 11, 2)`: `2, 4, 6, 8, 10`
+
+```py
+for count in range(5, 0, -1):
+  print(count) # 5, 4, 3, 2, 1
+```
+
+## Palavras-chave
+
+- `break`: interrompe o loop por completo
+- `continue`: pula o restante do loop
+
+# Expandindo o `print`
+
+- sep: separa os elementos passados
+- end: diz qual é o conteúdo a ser mostrado no final da linha
+
+```py
+print('texto', 'de', 'varias', 'palavras', sep=' ', end='\n')
+```
+
+### Operador Ternario
+
+```py
+  paridade = 'EVEN' if numero % 2 == 0 else 'ODD'
+  sinal = 'POSITIVO' if numero > 0 else 'NEGATIVE'
 ```

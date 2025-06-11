@@ -1,7 +1,4 @@
-dados = input().split()
-
-p = int(dados[0])
-r = int(dados[1])
+p, r = map(int, input().split())
 
 if p == 0:
     print('C')
