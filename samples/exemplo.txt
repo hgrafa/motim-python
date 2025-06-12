@@ -1,0 +1,2 @@
+Linha 1: Olá, mundo!
+Linha 2: Esta é uma segunda linha.
